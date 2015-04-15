@@ -1,0 +1,22 @@
+{
+  "clock": {
+    "src": ["README.md",
+            "js/**/*.js",
+            "!js/alarm.js",
+            "!js/alarm_database.js",
+            "!js/panels/alarm/active_alarm.js",
+            "!js/panels/alarm/alarm_list.js",
+            "!js/panels/alarm/child_window_manager.js",
+            "!js/panels/alarm/post_message_proxy.js",
+            "!js/panels/alarm_edit/main.js",
+            "!js/panels/timer/main.js",
+            "!js/picker/spinner.js",
+            "!js/ring_view.js",
+            "!js/stopwatch.js",
+            "!js/utils.js",
+            "!js/view.js"],
+    "options": {
+      "destination": "docs/"
+    }
+  }
+}
